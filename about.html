@@ -51,8 +51,13 @@
     <!-- <main class="container"> -->
     <main>
         <div class="main-content">
-
-            <img src="images/icecream.jpg" alt="Icecream Photo" class="main-image">
+            <img srcset="
+            images/icecream-320_x_320.jpg 320w,
+            images/icecream-640_x_400.jpg 640w,
+            images/icecream-1024_x_600.jpg 1024w" sizes="
+            (max-width:320px) 320px,
+            (max-width:640px) 640px,
+            (max-width:1024px) 1024px" src="images/icecream.jpg" alt="Icecream Photo" class="main-image">
             <div class="main-text">
                 <h2>Our Message</h2>
                 <p>
@@ -67,11 +72,9 @@
                         a baby shower you could get the excited ice cream mood that is fudge with confetti cake chunks.
                         I also keep in mind nutrition and make healthier options for health concise
                         individuals.<cite> — The owner</cite></p>
-                </blockquote>                 
-                    </div>
-                </div>
+                </blockquote>
             </div>
-        </div>
+        </div>      
     </main>
     <footer class="site-footer">
         <div class="copyright">

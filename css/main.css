@@ -620,9 +620,6 @@ table th {
 	}
 
 	/* styling footer 	 */
-
-
-
 	.copyright {
 		grid-area: copy;
 		text-align: left;

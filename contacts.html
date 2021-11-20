@@ -51,30 +51,37 @@
     <!-- <main class="container"> -->
     <main>
         <div class="main-content">
-
-            <img src="images/icecream.jpg" alt="Icecream Photo" class="contact-image">
+            <img srcset="
+            images/icecream-320_x_320.jpg 320w,
+            images/icecream-640_x_400.jpg 640w,
+            images/icecream-1024_x_600.jpg 1024w" sizes="
+            (max-width:320px) 320px,
+            (max-width:640px) 640px,
+            (max-width:1024px) 1024px" src="images/icecream.jpg" alt="Icecream Photo" class="main-image">
             <div class="contacts">
                 <h2>You Are Welcome</h2>
                 <p>
                     For east contact, please fill your note and details in form below:
                 </p>
                 <section class="contact-us">
-                   
+
                     <!-- contact form  -->
-                       <div class="contact-body">
+                    <div class="contact-body">
                         <div class="message">
                             <h3>Send us a message</h3>
                             <form id="contact-form" class="contact-form" method="post" action="contact.html">
                                 <div class="contact-form">
                                     <label for="fullname" class="small-header">Full Name</label>
                                     <div>
-                                        <input type="text" id="fullname" name="fullname" class="contact-control" required>
+                                        <input type="text" id="fullname" name="fullname" class="contact-control"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="contact-form">
                                     <label for="email" class="small-header">Email</label>
                                     <div>
-                                        <input type="email" id="email" name="youremail" class="contact-control" required>
+                                        <input type="email" id="email" name="youremail" class="contact-control"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="contact-form">
@@ -90,19 +97,8 @@
                                 </div>
                             </form>
                         </div>
-                        <!-- contact form closing  -->
-                       
-                   
-                </section><!-- closing Contact Us -->
-
-                        
-                   
-                       
-                     
-
-                        
                     </div>
-                </div>
+                </section><!-- closing Contact Us -->
             </div>
         </div>
     </main>
