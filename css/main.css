@@ -1,0 +1,409 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* -----------------------------------------
+            Custom Styles
+-------------------------------------------- */
+
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+	box-sizing: border-box;
+	color: #7030A0;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	line-height: 1.5;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+img {
+	width: 100%;
+}
+
+/* LoVe HAte */
+a,
+a:link,
+a:visited {
+	color: inherit;
+}
+
+a:hover,
+a:focus {
+	color: #30adad;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: bold;
+	margin: 1em 0 0.5em;
+}
+
+h1 {
+	font-size: 5.063rem;
+}
+
+h2 {
+	font-size: 3.375rem;
+}
+
+h3 {
+	font-size: 2.25rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1rem;
+}
+
+p {
+	margin: 1em 0;
+}
+
+/* after css reset - restyling strong , b, i, and em  */
+strong,
+b,
+strong *,
+b * {
+	font-weight: bold;
+}
+
+em,
+i,
+em *,
+i * {
+	font-style: italic;
+}
+
+
+/* styling blockquote  */
+blockquote {
+	margin: 0;
+}
+
+blockquote p {
+	padding: 15px 25px;
+}
+
+
+
+/* styling and sizing main container */
+.main-container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: #e4faf4;
+}
+
+
+/* styling header */
+.logo {
+	max-width: 50px;
+
+}
+
+.banner {
+}
+  
+
+  h1 {
+	padding: auto 0;
+	margin: 0;
+	text-align: center;
+
+}
+
+
+
+
+/* styling header  */
+.header-top {
+	background-color: #CCCCFF;
+	position:relative;
+	width: 100%;
+	/* display: block; */
+	
+	padding: 10px 15px;
+	margin: -12px 10px 10px 10px;
+}
+
+
+
+.main-image {
+	max-width: 45%;
+}
+
+.border-right {
+	border-right: 2px solid #7030A0;
+	padding-right: 3px;
+}
+
+/* styling nav bar  */
+/* .main-nav { 
+	display: block;
+	padding: 10px 20px 20px 20px;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	
+ } */
+
+ 
+
+
+
+
+
+nav li a {
+    text-decoration: none;
+	padding: 10px 20px 20px 20px;
+
+}
+
+
+/* =================== */
+
+
+.main-nav {
+
+	padding: 1rem 4rem;
+	align-items: center;
+	font-size: 2rem;
+	line-height: 2rem;
+	width: 100%;
+}
+
+.main-nav ul {
+	/* display: flex; */
+	width: 100%;
+}
+
+.nav-list a {
+	float: left;
+	margin: 5px 10px;
+	text-align: center;
+	align-items: center;
+	/* width: 100%; */
+	padding: 7%;
+	
+}
+
+
+/* ====================== */
+
+
+
+
+
+/* styling table  */
+.table {
+	border-collapse: collapse;
+	width: 49%;
+	}
+
+/* adding border to the table to enhance the looking */
+table th,
+table td {
+	border: 2px solid #b7f1e3;
+	padding: 8px;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+table th {
+	font-weight: bold;
+	background: #CCCCFF;
+}
+
+
+
+/* styling footer  */
+.site-footer {
+		color: #6a6abd;
+}
+
+.copyright,
+.footer-nav {
+	border: 2px solid #b7f1e3;
+	background: #CCCCFF;
+	border-radius: 7px;
+	max-width: 50%;
+	padding: 0 5px;
+	margin: 10px auto;
+}
+
+/* styling social media icons  */
+.fab {
+	padding: 10px;
+	font-size: 2rem;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;	
+}
+
+.far {
+	border: 2px solid gray;
+
+	font-size: 1.5rem;
+	text-decoration: none;	
+
+}
+
+.copyright {
+
+}
+
+.footer-nav {
+
+}
