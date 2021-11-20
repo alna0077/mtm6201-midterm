@@ -292,8 +292,7 @@ h1 {
 	grid-template-areas:
 		"logo logo title title title nav nav"
 		"logo logo title title title . ."
-		/* "logo logo . . . . ."			 */
-	;
+		;
 
 }
 
@@ -423,6 +422,7 @@ table th {
 /* styling social media icons  */
 .fab {
 	padding: 10px;
+	margin: 5px 25px;
 	font-size: 2rem;
 	width: 30px;
 	text-align: center;
