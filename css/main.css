@@ -464,13 +464,36 @@ table th {
 	animation-direction: alternate;
 }
 
-.fab {
-	/* margin: 10px 40px; */
+/* styling contacts page */
+.contacts {
+	width: 100%;
+	margin: 15px;
+	padding: 10px;
 }
 
-/****************************
-	 styling desktop 
-*****************************/
+.contact-form {
+
+	margin: 1rem 0;
+	font-size: 1rem;
+	max-width: 100%;
+}
+
+#email,
+#fullname,
+#message {
+	width: 100%;
+	background: #CCCCFF;
+}
+
+.contact-btn {
+	background: #CCCCFF;
+	color: #7030A0;
+}
+
+/*******************************
+	 styling mid-size screen  
+*********************************/
+
 @media screen and (min-width: 480px) {
 
 	.fab {
@@ -478,6 +501,9 @@ table th {
 	}
 }
 
+/****************************
+	 styling desktop 
+*****************************/
 
 @media screen and (min-width: 760px) {
 
@@ -634,31 +660,4 @@ table th {
 	.copy-text {
 		padding-right: 5px;
 	}
-}
-
-/* styling contacts page */
-.contacts {
-	width: 100%;
-	margin: 15px;
-	padding: 10px;
-}
-
-.contact-form {
-
-	margin: 1rem 0;
-	font-size: 1rem;
-	max-width: 100%;
-}
-
-#email,
-#fullname,
-#message {
-	width: 100%;
-	background: #CCCCFF;
-}
-
-.contact-btn {
-	background: #CCCCFF;
-	color: #7030A0;
-
 }
